@@ -6,7 +6,7 @@ import io.quarkiverse.langchain4j.ToolBox;
 import org.agenticai.aiastool.geo.GeoCodingService;
 import org.agenticai.aiastool.weather.WeatherForecastService;
 
-@RegisterAiService(modelName = "tool-use")
+@RegisterAiService(modelName = "granite-instruct")
 public interface WeatherForecastAgent {
 
     @SystemMessage("""
