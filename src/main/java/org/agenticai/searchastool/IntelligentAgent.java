@@ -5,7 +5,7 @@ import io.quarkiverse.langchain4j.RegisterAiService;
 import io.quarkiverse.langchain4j.ToolBox;
 import io.quarkiverse.langchain4j.ReActAgent;
 
-@RegisterAiService(modelName = "granite-instruct")
+@RegisterAiService(modelName = "big-model")
 public interface IntelligentAgent {
 
     @SystemMessage("""
